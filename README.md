@@ -22,7 +22,7 @@ This graphical representation offers potential solutions based on given conditio
 
 Our case study focuses on a churn dataset, where "churned customers" are those ending relationships with their current company. XYZ, a service provider, offers a one-year subscription plan and wants to predict customer renewal.
 
-Previously, we explored logistic regression on this dataset. It's recommended to review the [Build a Logistic Regression Model] project. Now, we aim to apply the decision tree classifier to the same dataset.
+Previously, we explored logistic regression on this dataset. It's recommended to review the [Build a Logistic Regression Model](https://github.com/diegovillatoromx/logistic_regresion_model) project. Now, we aim to apply the decision tree classifier to the same dataset.
 ## Architecture
 
 ![Architecture Diagram](https://github.com/diegovillatoromx/Customer_Churn_Prediction_Model/blob/main/architecture_diagram.png)
