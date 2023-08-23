@@ -21,7 +21,7 @@ A comprehensive description of your Data Science project. What problem does it s
 
 ## Architecture
 
-![Architecture Diagram](path/to/your/diagram.png)
+![Architecture Diagram](https://github.com/diegovillatoromx/Customer_Churn_Prediction_Model/blob/main/architecture_diagram.png)
 
 Diagram description: Briefly explain the components and major flows in your architecture. You can mention process stages, technologies used, and how they connect.
 
