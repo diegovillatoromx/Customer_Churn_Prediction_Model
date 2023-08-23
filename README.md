@@ -1,6 +1,16 @@
 # Customer Churn Prediction Model using Decision Trees
 
 Brief project description or tagline.
+```
+year	customer_id	phone_no	gender	age	no_of_days_subscribed	multi_screen	mail_subscribed	weekly_mins_watched	minimum_daily_mins	maximum_daily_mins	weekly_max_night_mins	videos_watched	maximum_days_inactive	customer_support_calls	churn
+2015	100198	409-8743	Female	36	62	no	no	148.35	12.2	16.81	82	1	4	1	0
+2015	100643	340-5930	Female	39	149	no	no	294.45	7.7	33.37	87	3	3	2	0
+2015	100756	372-3750	Female	65	126	no	no	87.3	11.9	9.89	91	1	4	5	1
+2015	101595	331-4902	Female	24	131	no	yes	321.3	9.5	36.41	102	4	3	3	0
+2015	101653	351-8398	Female	40	191	no	no	243	10.9	27.54	83	7	3	1	0![image](https://github.com/diegovillatoromx/Customer_Churn_Prediction_Model/assets/107954399/779ed64f-15db-4530-ae17-e57035718889)
+
+```
+
 
 ## Table of Contents
 
