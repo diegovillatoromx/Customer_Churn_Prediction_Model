@@ -16,8 +16,13 @@ Our case study focuses on a churn dataset, where "churned customers" are those e
 
 ## Description
 
-A comprehensive description of your Data Science project. What problem does it solve? What is its purpose? Why is it important? You can discuss the data you're working with and provide context for the project.
+A Decision Tree is a supervised learning method suitable for both classification and regression tasks, often used for solving classification problems. It's structured as a tree-like classifier, with nodes representing dataset features, branches as decision rules, and leaf nodes as outcomes.
 
+This graphical representation offers potential solutions based on given conditions. Beginning from a root node, it grows branches and forms a tree structure. The tree poses questions and branches further based on Yes/No answers.
+
+Our case study focuses on a churn dataset, where "churned customers" are those ending relationships with their current company. XYZ, a service provider, offers a one-year subscription plan and wants to predict customer renewal.
+
+Previously, we explored logistic regression on this dataset. It's recommended to review the [Build a Logistic Regression Model] project. Now, we aim to apply the decision tree classifier to the same dataset.
 ## Architecture
 
 ![Architecture Diagram](https://github.com/diegovillatoromx/Customer_Churn_Prediction_Model/blob/main/architecture_diagram.png)
