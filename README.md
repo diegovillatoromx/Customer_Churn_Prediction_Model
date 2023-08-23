@@ -1,5 +1,4 @@
 # Customer Churn Prediction Model using Decision Trees
-# Data Science Project: Project Title
 
 Brief project description or tagline.
 
