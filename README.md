@@ -29,9 +29,29 @@ Previously, we explored logistic regression on this dataset. It's recommended to
 
 Diagram description: Briefly explain the components and major flows in your architecture. You can mention process stages, technologies used, and how they connect.
 
-## Features
+## Data Description
+The CSV consists of around 2000 rows and 16 columns in the [dataset](https://github.com/diegovillatoromx/logistic_regresion_model/blob/main/Data/data_regression.csv)
 
-List the key features of your project. For example, analysis techniques, Machine Learning models, data visualization, etc.
+### Features:
+- Year
+- Customer_id - unique id
+- Phone_no - customer phone no
+- Gender -Male/Female
+- Age
+- No of days subscribed - the number of days since the subscription
+- Multi-screen - does the customer have a single/ multiple screen subscription
+- Mail subscription - customer receive mails or not
+- Weekly mins watched - number of minutes watched weekly
+- Minimum daily mins - minimum minutes watched
+- Maximum daily mins - maximum minutes watched
+- Weekly nights max mins - number of minutes watched at night time
+- Videos watched - total number of videos watched
+- Maximum_days_inactive - days since inactive
+- Customer support calls - number of customer support calls
+- Churn
+  - 0 No
+  - 1 Yes 
+
 
 ## Screenshots
 
