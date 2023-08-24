@@ -73,25 +73,22 @@ The CSV consists of around 2000 rows and 16 columns in the [dataset]
     |_Feature_Importance.png
     |_model.pkl
 ```
-1. Data Folder - It contains all the data that we have for analysis. There is one csv
+1. Input - It contains all the data that we have for analysis. There is one csv
 file in our case:
    - Data_regression.csv
-2. Src folder -This is the most important folder of the project. This folder contains
-all the modularized code for all the above steps in a modularized manner. This
-folder consists of:
-   - Engine.py
-   - ML_Pipeline
-     - The ML_pipeline is a folder that contains all the functions put into different
+2. ML_Pipeline
+   - The ML_pipeline is a folder that contains all the functions put into different
       python files, which are appropriately named. These python functions are
       then called inside the engine.py file.
 
-3. Output folder – The output folder contains the best-fitted models that we trained
+3. Output
+   – The output folder contains the best-fitted models that we trained
 for this data. These models can  be easily loaded and used for future use and
 the user need not have to train all the models from the beginning.
 Note: This model is built over a chunk of data. One can obtain the model for the
 entire data by running engine.py by taking the entire data to train the models.
 
-4. Lib folder - This is a reference folder. It contains the [ipython notebook tutorial](https://github.com/diegovillatoromx/logistic_regresion_model/blob/main/lib/logistic_regression.ipynb).
+4. Tutorial - This is a reference folder. It contains the [ipython notebook tutorial](https://github.com/diegovillatoromx/logistic_regresion_model/blob/main/lib/logistic_regression.ipynb).
 
 
 ## Installation
