@@ -178,8 +178,17 @@ Perform analysis and modeling on prepared data:
 
    ```terminal
    decision_tree_plot = plot_model(model_dectree,['not churn','churn'])
-   plt.savefig("output/"+"Decision_Tree_plot.png")   ```
+   plt.savefig("output/"+"Decision_Tree_plot.png")
+   ```
    ![tree](https://github.com/diegovillatoromx/Customer_Churn_Prediction_Model/blob/main/images/Decision_Tree_plot.png)
+
+3. #### Feature Importance
+   ```terminal
+   fea_imp = plot_feature_importances(model_dectree)
+   plt.savefig("output/"+"Feature_Importance.png")
+   ```
+   ![running_model](https://github.com/diegovillatoromx/Customer_Churn_Prediction_Model/blob/main/images/Feature_Importance.png)
+
 
 # Contributing
 
