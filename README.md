@@ -74,6 +74,6 @@ pip install -r requirements.txt
    Clone this repository to your local machine using Git:
 
    ```bash
-   git clone https://github.com/yourusername/yourproject.git
+   git clone https://github.com/diegovillatoromx/Customer_Churn_Prediction_Model
    cd yourproject
    ```
