@@ -7,11 +7,9 @@ Our case study focuses on a churn dataset, where "churned customers" are those e
 - [Description](#description)
 - [Architecture](#architecture)
 - [Features](#features)
-- [Screenshots](#screenshots)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Description
@@ -64,9 +62,6 @@ Install required packages using the requirements.txt file:
 ``` bash
 pip install -r requirements.txt
 ```
-
-
-
 ### Installation Steps
 
 1. **Clone the Repository:**
@@ -77,3 +72,7 @@ pip install -r requirements.txt
    git clone https://github.com/diegovillatoromx/Customer_Churn_Prediction_Model
    cd yourproject
    ```
+## Usage
+
+How to utilize and operate the Data Science project after completing the installation steps.
+
