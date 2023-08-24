@@ -7,6 +7,7 @@ Our case study focuses on a churn dataset, where "churned customers" are those e
 - [Description](#description)
 - [Architecture](#architecture)
 - [Features](#features)
+- [Modular_Code_Overview](#modular_code_overview)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -50,6 +51,61 @@ The CSV consists of around 2000 rows and 16 columns in the [dataset]
 - Churn
   - 0 No
   - 1 Yes 
+
+## Modular_Code_Overview
+
+```
+  input
+    |_data_regression.csv
+
+  src
+    |_Engine.py
+    |_ML_pipeline
+              |_encoding.py
+              |_evaluate_metrics.py
+              |_feature_engg.py
+              |_imbalanced_data.py
+              |_ml_model.py
+              |_stats_model.py
+              |_rescale_variables.py
+              |_scaler.py
+              |_train_model.py
+              |_utils.py
+
+  lib
+    |_logistic_regresion.ipynb
+
+  output
+    |_adjusted_model.pkl
+    |_balanced_model1.pkl
+    |_balanced_model2.pkl
+    |_log_ROC.pkl
+    |_model_rfe_feat.pkl
+    |_model_stats.pkl
+    |_model_var_feat.pkl
+    |_model1.pkl
+    |_smote_model.pkl
+```
+1. Data Folder - It contains all the data that we have for analysis. There is one csv
+file in our case:
+   - Data_regression.csv
+2. Src folder -This is the most important folder of the project. This folder contains
+all the modularized code for all the above steps in a modularized manner. This
+folder consists of:
+   - Engine.py
+   - ML_Pipeline
+     - The ML_pipeline is a folder that contains all the functions put into different
+      python files, which are appropriately named. These python functions are
+      then called inside the engine.py file.
+
+3. Output folder – The output folder contains the best-fitted models that we trained
+for this data. These models can  be easily loaded and used for future use and
+the user need not have to train all the models from the beginning.
+Note: This model is built over a chunk of data. One can obtain the model for the
+entire data by running engine.py by taking the entire data to train the models.
+
+4. Lib folder - This is a reference folder. It contains the [ipython notebook tutorial](https://github.com/diegovillatoromx/logistic_regresion_model/blob/main/lib/logistic_regression.ipynb).
+
 
 ## Installation
 
