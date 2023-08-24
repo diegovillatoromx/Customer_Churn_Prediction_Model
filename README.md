@@ -116,4 +116,60 @@ pip install -r requirements.txt
 ## Usage
 
 How to utilize and operate the Data Science project after completing the installation steps.
+1. Import the required libraries
+    ```terminal
+    import pickle
+    from ML_Pipeline.utils import read_data,inspection,null_values
+    from ML_Pipeline.ml_model import prepare_model_smote,run_model
+    from ML_Pipeline.evaluate_metrics import confusion_matrix,roc_curve
+    from ML_Pipeline.feature_imp import plot_feature_importances
+    from ML_Pipeline.plot_model import plot_model
+    import matplotlib.pyplot as plt
+    ```
+2. Read the initial datasets
+    ```terminal
+    datapath = 'input/data_regression.csv'
+    df = read_data(datapath)
+    df.head(5)
+    ```
+
+# Contributing
+
+Encourage contributions to the Data Science project.
+
+## How to Contribute
+### Fork the Repository:
+Fork this repository to your GitHub account.
+
+### Clone Your Fork:
+Clone your fork to your local machine:
+```
+git clone https://github.com/yourusername/yourproject.git
+cd yourproject
+```
+### Create a Branch:
+Create a new branch to work on:
+```
+git checkout -b your-branch-name
+```
+### Make Changes:
+Make necessary changes to the code.
+
+### Testing and Feedback:
+Test changes and seek feedback from collaborators.
+
+### Submit a Pull Request:
+Send a pull request from your branch to the main repository.
+
+## Contribution Guidelines
+1. Focus changes on specific improvements.
+2. Follow project's coding style.
+3. Provide detailed descriptions in pull requests.
+## Reporting Issues
+Use "Issues" to report bugs or suggest improvements.
+
+# Contact
+For questions or contact, [email](diegovillatormx@gmail.com) or [Twitter] .
+
+
 
