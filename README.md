@@ -147,12 +147,35 @@ Before analysis, prepare data by loading and processing it:
     ```terminal
     df = null_values(df)
     ```
-### Analysis and Modeling
+### Training Model
 Perform analysis and modeling on prepared data:
 
+1. #### Model Selection
+   Selecting only the numerical columns and excluding the columns we specified in the function
+   ```terminal
+    X_train, X_test, y_train, y_test = prepare_model_smote(df,class_col='churn',
+                                                 cols_to_exclude=['customer_id','phone_no', 'year'])
+    ```
+### Evaluation
 
-    
-   
+1. #### Evaluation Metrics
+   ```terminal
+   model_dectree,y_pred = run_model(X_train,X_test,y_train,y_test)
+   ```
+   ![running_model](https://github.com/diegovillatoromx/Customer_Churn_Prediction_Model/blob/main/images/run_model.png)
+
+
+2. #### Performance metrics
+   ```terminal
+   conf_matrix = confusion_matrix(y_test,y_pred)
+   ```
+   ![running_model](https://github.com/diegovillatoromx/Customer_Churn_Prediction_Model/blob/main/images/cof_matrix.png)
+
+   ```terminal
+   roc_val = roc_curve(model_dectree,X_test,y_test) # plot the roc curve
+   ```
+   ![running_model](https://github.com/diegovillatoromx/Customer_Churn_Prediction_Model/blob/main/images/Log_ROC.png)
+
 
 # Contributing
 
