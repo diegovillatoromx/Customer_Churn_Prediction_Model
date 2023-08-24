@@ -116,6 +116,7 @@ pip install -r requirements.txt
 ## Usage
 
 How to utilize and operate the Data Science project after completing the installation steps.
+### Data Preparation
 1. Import the required libraries
     ```terminal
     import pickle
@@ -132,6 +133,12 @@ How to utilize and operate the Data Science project after completing the install
     df = read_data(datapath)
     df.head(5)
     ```
+    
+3. Inspection and cleaning the data
+    ```terminal
+    x = inspection(df)
+    ```
+
 
 # Contributing
 
@@ -169,7 +176,7 @@ Send a pull request from your branch to the main repository.
 Use "Issues" to report bugs or suggest improvements.
 
 # Contact
-For questions or contact, [email](diegovillatormx@gmail.com) or [Twitter] .
+For questions or contact, [email](diegovillatormx@gmail.com) or [Twitter](https://twitter.com/diegovillatomx) .
 
 
 
