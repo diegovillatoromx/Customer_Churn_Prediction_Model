@@ -117,7 +117,8 @@ pip install -r requirements.txt
 
 How to utilize and operate the Data Science project after completing the installation steps.
 ### Data Preparation
-1. Import the required libraries
+Before analysis, prepare data by loading and processing it:
+1. ##### Import the required libraries
     ```terminal
     import pickle
     from ML_Pipeline.utils import read_data,inspection,null_values
@@ -127,18 +128,31 @@ How to utilize and operate the Data Science project after completing the install
     from ML_Pipeline.plot_model import plot_model
     import matplotlib.pyplot as plt
     ```
-2. Read the initial datasets
+2. ##### Data loading
+    If data is in CSV format, load it using Pandas:
     ```terminal
     datapath = 'input/data_regression.csv'
     df = read_data(datapath)
     df.head(5)
     ```
-    
-3. Inspection and cleaning the data
+    ![df_head](https://github.com/diegovillatoromx/Customer_Churn_Prediction_Model/blob/main/images/dfhead.png)
+ 
+3. #### Inspection and cleaning the data
     ```terminal
     x = inspection(df)
     ```
+    ![inspection](https://github.com/diegovillatoromx/Customer_Churn_Prediction_Model/blob/main/images/inspection.png)
+4. #### Cleaning and Preprocessing:
+   Clean data by handling missing values, normalization, etc.
+    ```terminal
+    df = null_values(df)
+    ```
+### Analysis and Modeling
+Perform analysis and modeling on prepared data:
 
+
+    
+   
 
 # Contributing
 
