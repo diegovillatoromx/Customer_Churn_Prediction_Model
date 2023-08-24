@@ -172,10 +172,14 @@ Perform analysis and modeling on prepared data:
    ![running_model](https://github.com/diegovillatoromx/Customer_Churn_Prediction_Model/blob/main/images/cof_matrix.png)
 
    ```terminal
-   roc_val = roc_curve(model_dectree,X_test,y_test) # plot the roc curve
+   roc_val = roc_curve(model_dectree,X_test,y_test)
    ```
-   ![running_model](https://github.com/diegovillatoromx/Customer_Churn_Prediction_Model/blob/main/images/Log_ROC.png)
+   ![ROC](https://github.com/diegovillatoromx/Customer_Churn_Prediction_Model/blob/main/images/Log_ROC.png)
 
+   ```terminal
+   decision_tree_plot = plot_model(model_dectree,['not churn','churn'])
+   plt.savefig("output/"+"Decision_Tree_plot.png")   ```
+   ![tree](https://github.com/diegovillatoromx/Customer_Churn_Prediction_Model/blob/main/images/Decision_Tree_plot.png)
 
 # Contributing
 
