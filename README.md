@@ -87,8 +87,7 @@ the user need not have to train all the models from the beginning.
 Note: This model is built over a chunk of data. One can obtain the model for the
 entire data by running engine.py by taking the entire data to train the models.
 
-4. Tutorial - This is a reference folder. It contains the [ipython notebook tutorial](https://github.com/diegovillatoromx/logistic_regresion_model/blob/main/lib/logistic_regression.ipynb).
-
+4. Tutorial - This is a reference folder. It contains the ipython notebook tutorial.
 
 ## Installation
 
