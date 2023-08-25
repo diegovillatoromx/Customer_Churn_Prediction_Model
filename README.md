@@ -29,8 +29,7 @@ Previously, we explored logistic regression on this dataset. It's recommended to
 Diagram description: Briefly explain the components and major flows in your architecture. You can mention process stages, technologies used, and how they connect.
 
 ## Data Description
-The CSV consists of around 2000 rows and 16 columns in the [dataset]
-(https://github.com/diegovillatoromx/Customer_Churn_Prediction_Model/blob/main/input/data_regression.csv)
+The CSV consists of around 2000 rows and 16 columns in the [dataset](https://github.com/diegovillatoromx/Customer_Churn_Prediction_Model/blob/main/input/data_regression.csv)
 
 ### Features:
 - Year
