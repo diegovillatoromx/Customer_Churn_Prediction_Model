@@ -7,7 +7,7 @@ Our case study focuses on a churn dataset, where "churned customers" are those e
 - [Description](#description)
 - [Architecture](#architecture)
 - [Features](#features)
-- [Modular_Code_Overview](#modular_code_overview)
+- [Modular_Code_Overview](#modular_code_overview) 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
