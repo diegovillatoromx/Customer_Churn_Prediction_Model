@@ -4,7 +4,6 @@ from imblearn.over_sampling import SMOTE
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import roc_auc_score,classification_report
 
-
 #function to create a model using SMOTE
 def prepare_model_smote(df,class_col,cols_to_exclude): 
 #Synthetic Minority Oversampling Technique. Generates new instances from existing minority cases that you supply as input. 
