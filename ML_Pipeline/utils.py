@@ -1,4 +1,3 @@
-
 import pandas as pd
 
 # Function to read the data file 
