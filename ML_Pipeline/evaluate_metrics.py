@@ -7,7 +7,7 @@ def confusion_matrix(y_test,y_pred): #define a function
   tn, fp, fn, tp = confusion_matrix.ravel()
   print('TN: %0.2f'% tn)
   print('TP: %0.2f'% tp)
-  print('FP: %0.2f'%fp)
+  print('FP: %0.2f'%fp) 
   print('FN: %0.2f'%fn)
   
 
