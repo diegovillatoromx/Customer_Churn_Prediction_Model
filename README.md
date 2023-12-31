@@ -3,7 +3,7 @@
 Our case study focuses on a churn dataset, where "churned customers" are those ending relationships with their current company. XYZ, a service provider, offers a one-year subscription plan and wants to predict customer renewal.
   
 ## Table of Contents
-
+ 
 - [Description](#description)
 - [Architecture](#architecture)
 - [Features](#features)
